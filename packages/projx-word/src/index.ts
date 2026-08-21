@@ -1,3 +1,3 @@
-export * from './wordDocumentContext.js';
-export * from './getOrCreateWordDocumentReference.js';
-export * from './officeWordDocumentContext.js';
+export * from './word-document-context.js';
+export * from './get-or-create-word-document-reference.js';
+export * from './office-word-document-context.js';

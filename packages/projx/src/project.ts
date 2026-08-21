@@ -1,6 +1,6 @@
 import { createItemId } from './identity.js';
 import type { ItemId } from './identity.js';
-import type { ContainerItem, FileReferenceItem, ProjectItem } from './projectItem.js';
+import type { ContainerItem, FileReferenceItem, ProjectItem } from './project-item.js';
 import type { DocumentReference } from './reference.js';
 
 export interface Project {

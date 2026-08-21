@@ -5,8 +5,8 @@ import {
   createProject,
   getChildren,
   removeItem,
-} from '../src/project.js';
-import type { DocumentReference } from '../src/reference.js';
+} from './project.js';
+import type { DocumentReference } from './reference.js';
 
 const reference: DocumentReference = {
   scheme: 'word',

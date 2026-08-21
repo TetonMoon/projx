@@ -1,1 +1,1 @@
-export * from './fileProjectStore.js';
+export * from './file-project-store.js';

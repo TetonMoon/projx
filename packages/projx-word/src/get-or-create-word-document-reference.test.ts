@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { getOrCreateWordDocumentReference } from '../src/getOrCreateWordDocumentReference.js';
-import type { WordDocumentContext } from '../src/wordDocumentContext.js';
+import { getOrCreateWordDocumentReference } from './get-or-create-word-document-reference.js';
+import type { WordDocumentContext } from './word-document-context.js';
 
 class FakeWordDocumentContext implements WordDocumentContext {
   private readonly settings: Map<string, string>;

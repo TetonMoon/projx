@@ -1,5 +1,5 @@
 import type { DocumentReference } from '@tetonmoon/projx';
-import type { WordDocumentContext } from './wordDocumentContext.js';
+import type { WordDocumentContext } from './word-document-context.js';
 
 const DOCUMENT_ID_SETTING_KEY = 'projx.documentId';
 

@@ -1,6 +1,6 @@
 import type { ItemId } from './identity.js';
 import type { Project } from './project.js';
-import type { ProjectItem } from './projectItem.js';
+import type { ProjectItem } from './project-item.js';
 import type { DocumentReference } from './reference.js';
 
 export interface PersistedItemV1 {

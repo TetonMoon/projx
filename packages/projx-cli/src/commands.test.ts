@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { addContainer, addFileReference, createProject } from '@tetonmoon/projx';
-import { findAddedItemId, formatProjectTree, resolveParentId } from '../src/commands.js';
+import { findAddedItemId, formatProjectTree, resolveParentId } from './commands.js';
 
 describe('resolveParentId', () => {
   it('returns null when no value is given', () => {

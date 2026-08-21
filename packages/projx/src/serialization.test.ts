@@ -1,8 +1,8 @@
 import { describe, expect, it } from 'vitest';
-import { addContainer, addFileReference, createProject } from '../src/project.js';
-import { deserializeProject, serializeProject } from '../src/serialization.js';
-import type { DocumentReference } from '../src/reference.js';
-import type { PersistedProjectV1 } from '../src/serialization.js';
+import { addContainer, addFileReference, createProject } from './project.js';
+import { deserializeProject, serializeProject } from './serialization.js';
+import type { DocumentReference } from './reference.js';
+import type { PersistedProjectV1 } from './serialization.js';
 
 const reference: DocumentReference = {
   scheme: 'word',

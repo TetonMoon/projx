@@ -1,4 +1,4 @@
-import type { WordDocumentContext } from './wordDocumentContext.js';
+import type { WordDocumentContext } from './word-document-context.js';
 
 // Thin adapter over the real Office.js APIs. Requires running inside a Word add-in,
 // so it is intentionally left untested here — getOrCreateWordDocumentReference is

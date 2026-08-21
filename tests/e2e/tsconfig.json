@@ -3,7 +3,8 @@
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "test",
-    "noEmit": true
+    "noEmit": true,
+    "types": ["node"]
   },
   "include": ["test"],
   "references": [{ "path": "../../packages/projx" }, { "path": "../../packages/projx-persistence-node" }]
