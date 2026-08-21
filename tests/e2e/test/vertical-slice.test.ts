@@ -2,9 +2,9 @@ import { mkdtemp, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
-import { addFileReference, createProject, deserializeProject, serializeProject } from '@projx/core';
-import type { DocumentReference } from '@projx/core';
-import { FileProjectStore } from '@projx/persistence-node';
+import { addFileReference, createProject, deserializeProject, serializeProject } from '@tetonmoon/projx';
+import type { DocumentReference } from '@tetonmoon/projx';
+import { FileProjectStore } from '@tetonmoon/projx-persistence-node';
 
 let dir: string;
 

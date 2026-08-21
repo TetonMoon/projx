@@ -1,10 +1,10 @@
 {
   "files": [],
   "references": [
-    { "path": "packages/core" },
-    { "path": "packages/persistence-node" },
-    { "path": "packages/word-integration" },
-    { "path": "packages/cli" },
-    { "path": "packages/e2e" }
+    { "path": "packages/projx" },
+    { "path": "packages/projx-persistence-node" },
+    { "path": "packages/projx-word" },
+    { "path": "packages/projx-cli" },
+    { "path": "tests/e2e" }
   ]
 }

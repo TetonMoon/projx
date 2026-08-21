@@ -1,6 +1,6 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
-import type { PersistedProjectV1, ProjectStore } from '@projx/core';
+import type { PersistedProjectV1, ProjectStore } from '@tetonmoon/projx';
 
 export class FileProjectStore implements ProjectStore {
   private readonly filePath: string;

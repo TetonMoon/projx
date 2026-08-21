@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { addContainer, addFileReference, createProject } from '@projx/core';
+import { addContainer, addFileReference, createProject } from '@tetonmoon/projx';
 import { findAddedItemId, formatProjectTree, resolveParentId } from '../src/commands.js';
 
 describe('resolveParentId', () => {

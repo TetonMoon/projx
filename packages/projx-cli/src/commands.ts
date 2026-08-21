@@ -1,5 +1,5 @@
-import type { ItemId, Project } from '@projx/core';
-import { getChildren } from '@projx/core';
+import type { ItemId, Project } from '@tetonmoon/projx';
+import { getChildren } from '@tetonmoon/projx';
 
 export function resolveParentId(raw: string | undefined): ItemId | null {
   return raw ? (raw as ItemId) : null;

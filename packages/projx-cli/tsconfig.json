@@ -5,5 +5,5 @@
     "rootDir": "src"
   },
   "include": ["src"],
-  "references": [{ "path": "../core" }, { "path": "../persistence-node" }]
+  "references": [{ "path": "../projx" }, { "path": "../projx-persistence-node" }]
 }

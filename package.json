@@ -3,14 +3,16 @@
   "private": true,
   "type": "module",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "tests/*"
   ],
   "scripts": {
     "build": "tsc -b --pretty",
     "pretest": "npm run build",
     "test": "vitest run",
     "typecheck": "tsc -b --pretty",
-    "clean": "tsc -b --clean"
+    "clean": "tsc -b --clean",
+    "cli": "node ./packages/projx-cli/dist/main.js"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",

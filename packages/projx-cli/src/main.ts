@@ -7,9 +7,9 @@ import {
   deserializeProject,
   removeItem,
   serializeProject,
-} from '@projx/core';
-import type { ItemId, Project } from '@projx/core';
-import { FileProjectStore } from '@projx/persistence-node';
+} from '@tetonmoon/projx';
+import type { ItemId, Project } from '@tetonmoon/projx';
+import { FileProjectStore } from '@tetonmoon/projx-persistence-node';
 import { findAddedItemId, formatProjectTree, resolveParentId } from './commands.js';
 
 function requireOption(value: string | undefined, name: string): string {

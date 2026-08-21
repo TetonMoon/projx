@@ -1,5 +1,5 @@
 {
-  "name": "@projx/cli",
+  "name": "@tetonmoon/projx-cli",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -7,7 +7,7 @@
     "projx": "./dist/main.js"
   },
   "dependencies": {
-    "@projx/core": "*",
-    "@projx/persistence-node": "*"
+    "@tetonmoon/projx": "*",
+    "@tetonmoon/projx-persistence-node": "*"
   }
 }
