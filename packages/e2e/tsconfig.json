@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "test",
+    "noEmit": true
+  },
+  "include": ["test"],
+  "references": [{ "path": "../core" }, { "path": "../persistence-node" }]
+}

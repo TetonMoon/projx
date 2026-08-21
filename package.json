@@ -1,0 +1,20 @@
+{
+  "name": "projx",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc -b --pretty",
+    "pretest": "npm run build",
+    "test": "vitest run",
+    "typecheck": "tsc -b --pretty",
+    "clean": "tsc -b --clean"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  }
+}

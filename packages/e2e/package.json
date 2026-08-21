@@ -1,0 +1,10 @@
+{
+  "name": "@projx/e2e",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@projx/core": "*",
+    "@projx/persistence-node": "*"
+  }
+}

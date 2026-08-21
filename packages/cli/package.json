@@ -1,0 +1,13 @@
+{
+  "name": "@projx/cli",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "projx": "./dist/main.js"
+  },
+  "dependencies": {
+    "@projx/core": "*",
+    "@projx/persistence-node": "*"
+  }
+}
