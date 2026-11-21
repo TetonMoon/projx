@@ -16,7 +16,7 @@ const sample: PersistedProjectV1 = {
       name: 'Report',
       parentId: 'item-1',
       kind: 'file-reference',
-      reference: { scheme: 'word', identifier: 'doc-123', displayName: 'Report.docx' },
+      reference: { scheme: 'word', identifier: 'doc-123', },
     },
   ],
 };

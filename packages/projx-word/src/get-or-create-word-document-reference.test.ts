@@ -51,14 +51,6 @@ describe('getOrCreateWordDocumentReference', () => {
     expect(context.saveCount).toBe(0);
   });
 
-  it('uses the current file name as displayName', async () => {
-    const context = new FakeWordDocumentContext('Budget.docx');
-
-    const reference = await getOrCreateWordDocumentReference(context);
-
-    expect(reference.displayName).toBe('Budget.docx');
-  });
-
   it('generates a different id for two different documents', async () => {
     const a = await getOrCreateWordDocumentReference(new FakeWordDocumentContext('A.docx'));
     const b = await getOrCreateWordDocumentReference(new FakeWordDocumentContext('B.docx'));

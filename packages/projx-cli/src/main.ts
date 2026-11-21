@@ -31,7 +31,7 @@ Commands:
   create        --project <path> --name <name>
   list          --project <path>
   add-container --project <path> --name <name> [--parent <id>]
-  add-file      --project <path> --name <name> --scheme <scheme> --identifier <id> [--display-name <name>] [--parent <id>]
+  add-file      --project <path> --name <name> --scheme <scheme> --identifier <id> [--parent <id>]
   remove        --project <path> --id <itemId>`);
 }
 
@@ -89,7 +89,6 @@ async function main(argv: string[]): Promise<void> {
           name: { type: 'string' },
           scheme: { type: 'string' },
           identifier: { type: 'string' },
-          'display-name': { type: 'string' },
           parent: { type: 'string' },
         },
       });
@@ -102,7 +101,6 @@ async function main(argv: string[]): Promise<void> {
       const updated = addFileReference(project, resolveParentId(values.parent), name, {
         scheme,
         identifier,
-        displayName: values['display-name'],
       });
       await new FileProjectStore(projectPath).save(serializeProject(updated));
       console.log(`Added file reference "${name}" (${findAddedItemId(project, updated)})`);

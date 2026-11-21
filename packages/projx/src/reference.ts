@@ -3,5 +3,4 @@
 export interface DocumentReference {
   readonly scheme: string;
   readonly identifier: string;
-  readonly displayName?: string;
 }

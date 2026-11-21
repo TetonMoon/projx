@@ -11,7 +11,6 @@ import type { DocumentReference } from './reference.js';
 const reference: DocumentReference = {
   scheme: 'word',
   identifier: 'doc-123',
-  displayName: 'Report.docx',
 };
 
 describe('createProject', () => {

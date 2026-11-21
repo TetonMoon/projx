@@ -16,6 +16,5 @@ export async function getOrCreateWordDocumentReference(
     await context.saveSettingsAsync();
   }
 
-  const displayName = await context.getFileName();
-  return { scheme: 'word', identifier, displayName };
+  return { scheme: 'word', identifier };
 }

@@ -21,7 +21,6 @@ describe('vertical slice: create, add reference, persist, reload', () => {
     const wordDocument: DocumentReference = {
       scheme: 'word',
       identifier: 'doc-abc-123',
-      displayName: 'Quarterly Report.docx',
     };
 
     const original = addFileReference(createProject('Quarterly Report Project'), null, 'Quarterly Report.docx', wordDocument);

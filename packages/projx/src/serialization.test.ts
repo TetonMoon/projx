@@ -7,7 +7,6 @@ import type { PersistedProjectV1 } from './serialization.js';
 const reference: DocumentReference = {
   scheme: 'word',
   identifier: 'doc-123',
-  displayName: 'Report.docx',
 };
 
 function buildSampleProject() {

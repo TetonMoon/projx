@@ -26,7 +26,6 @@ describe('formatProjectTree', () => {
     project = addFileReference(project, folderId, 'Report', {
       scheme: 'word',
       identifier: 'doc-1',
-      displayName: 'Report.docx',
     });
 
     const tree = formatProjectTree(project);

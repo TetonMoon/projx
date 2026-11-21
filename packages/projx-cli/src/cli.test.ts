@@ -43,7 +43,6 @@ describe('projx CLI (run directly with node, unbuilt)', () => {
       '--name', 'Report',
       '--scheme', 'word',
       '--identifier', 'doc-1',
-      '--display-name', 'Report.docx',
     ]);
     const afterFile = await runCli(['list', '--project', projectPath]);
     expect(afterFile).toContain('[file-reference] Report');
